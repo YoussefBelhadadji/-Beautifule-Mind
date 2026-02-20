@@ -140,40 +140,39 @@
 	opacity: 1;
 }
 
-/* CTA Buttons */
+/* CTA Buttons - Simple & Clean */
 .cta-btn {
 	display: inline-flex;
 	align-items: center;
-	gap: var(--spacing-sm);
-	padding: var(--spacing-md) var(--spacing-lg);
-	border-radius: var(--radius-full);
-	font-weight: var(--font-weight-semibold);
-	transition: all var(--transition-fast);
+	gap: 0.4rem;
+	padding: 0.6rem 1.4rem;
+	border-radius: 55px;
+	font-weight: 600;
+	transition: all 0.3s ease;
 	text-decoration: none;
 	cursor: pointer;
-	border: 2px solid transparent;
+	border: none;
+	font-size: 0.95rem;
 }
 
 .cta-btn.cta-login {
-	background: transparent;
-	color: var(--primary);
-	border-color: var(--primary);
+	background: #A9D2E8;
+	color: #fff;
 }
 
 .cta-btn.cta-login:hover {
-	background: var(--primary);
-	color: var(--text-white);
+	background: #8FC5E0;
+	transform: translateY(-2px);
 }
 
 .cta-btn.cta-primary {
-	background: var(--accent);
-	color: var(--text-primary);
-	border-color: var(--accent);
+	background: #FCD97B;
+	color: #333;
 }
 
 .cta-btn.cta-primary:hover {
-	background: var(--accent-dark);
-	border-color: var(--accent-dark);
+	background: #F5CA4A;
+	transform: translateY(-2px);
 }
 
 /*════════════════════════════════════════════════════════════════
