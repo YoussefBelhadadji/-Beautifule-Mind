@@ -3081,11 +3081,11 @@ ul.footer-social-top li a:hover {
 .cta-btn {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
-    padding: 0.9rem 2rem;
+    gap: 0.7rem;
+    padding: 1rem 2.8rem;
     border-radius: 50px;
     font-family: 'Cairo', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     border: none;
     cursor: pointer;
